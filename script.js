@@ -60,24 +60,24 @@ function Animation() {
       trigger: ".faqhead",
       start: "top center",
       end: "bottom center",
-      markers: true,
+      // markers: true,
       scrub: 3,
     },
   });
 }
 Animation();
-function SmoothScroll() {
-  let scroll = new LocomotiveScroll({
-    el: document.querySelector("#main"),
-    smooth: true,
-    lerp: 0.07,
-    multiplier: 1.1,
-    smartphone: {
-      smooth: true,
-    },
-  });
-}
-SmoothScroll();
+// function SmoothScroll() {
+//   let scroll = new LocomotiveScroll({
+//     el: document.querySelector("#main"),
+//     smooth: true,
+//     lerp: 0.07,
+//     multiplier: 1.1,
+//     smartphone: {
+//       smooth: true,
+//     },
+//   });
+// }
+// SmoothScroll();
 function loader() {
   document.addEventListener("DOMContentLoaded", function () {
     setTimeout(() => {
